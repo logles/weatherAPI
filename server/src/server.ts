@@ -9,7 +9,6 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 
-//RULES FOR SERVER TO WORK
 // TODO: Serve static files of entire client dist folder
 app.use(express.static("../client/dist"));
 
