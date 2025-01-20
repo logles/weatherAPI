@@ -22,5 +22,3 @@ app.use(routes); //given code
 
 // Start the server on the port
 app.listen(PORT, () => console.log(`Listening on PORT: ${PORT}`));
-
-//http://localhost:3000/

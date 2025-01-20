@@ -1,33 +1,59 @@
-# weatherAPI
+# Title: WeatherAPI
 
-Build a weather dashboard application that calls the OpenWeather API and renders data in the browser.
+## Table of Contents
 
-## Weather Dashboard
+[Description](#description)
+[Installation](#installation)
+[Usage](#usage)
+[Credits](#credits)
+[License](#license)
+[Badge](#badge)
+[Features](#features)
+[Contribute](#contribute)
+[Contact](#contact)
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Render.
+## Installation
 
-Under Create Key, give your API key a name that's unique to your project, then click the Generate button. This will take you to a page that lists any keys that you've created. They should look like a random string of 32 characters. Copy the new key that you've created, and save it in the JavaScript file where you'll be making API calls.
+1.Clone this repository to your local machine 2. Navigate to the package.json 3. Install all the required dependencies using 4. Run npm start 5. Open in window http://localhost:3001/
 
-Key: b5731a5bf64664fdb1a09f71619f661b
-Name: weatherAPI
+## Description
 
-## Getting Started
+This project is a Node.js application that fetches current weather and forecast data for a given city using the OpenWeather API (https://openweathermap.org/forecast5). It leverages modular design, with methods for fetching weather data, parsing results, and generating forecast arrays. The application demonstrates how to handle API calls and process structured data in JavaScript.
 
-On the back end, the application should include a searchHistory.json file that will be used to store and retrieve cities using the fs module.
+Watch Screencastify: https://app.screencastify.com/v3/watch/yKFXfsLSbsyUidWXUVXS
 
-The following HTML route should be created:
+Client side code was provided - assigment was to connect the server side
 
-GET \* should return the index.html file.
-The following API routes should be created:
+## Usage
 
-GET /api/weather/history should read the searchHistory.json file and return all saved cities as JSON.
+Run in integrated terminal using prompt npm start and other prompts in package.json.
 
-POST /api/weather should receive a city name to save on the request body, add it to the searchHistory.json file, and then return associated weather data to the client. You'll need to find a way to give each city name a unique id when it's saved (look into npm packages that could do this for you).
+## Credits
 
-Refer to the Full-Stack Blog on deploying to RenderLinks to an external site. and the Render documentation on setting environment variablesLinks to an external site..
+Xpert learning assistant, TAs, Toutors, Aks BCLearning Assistant
 
-## Hints
+## License
 
-Using the 5-day weather forecast API, you'll notice that you'll need to pass in coordinates instead of just a city name. Using the OpenWeatherMap APIs, how could we retrieve geographical coordinates given a city name?
+     This is using the MIT license
 
-How could we make the OpenWeather API calls server-side, parse the data, and then send the parsed data client-side?
+License Link:(https://opensource.org/licenses/MIT)
+
+## Badge
+
+License Badge: [![MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
+
+## Features
+
+- Fetches current weather and 5-day forecast data using the OpenWeather API.
+- Modular methods for fetching, parsing, and constructing forecast arrays.
+- Provides an example of modern JavaScript features like async/await and modular design.
+- Includes error handling for failed API requests.
+
+## How to contibute
+
+Contributions are welcome! If you'd like to contribute. Open a pull request.
+
+## Contact
+
+Lydia Ogles
+https://github.com/logles/weatherAPI

@@ -1,6 +1,18 @@
 [
 	{
-		"name": "San Diego",
-		"id": "6264e77a-3a02-4a71-afd2-8b69e6e6e2f4"
+		"name": "Salt Lake City",
+		"id": "37d3ecb8-3870-4b2e-8a57-c01845180639"
+	},
+	{
+		"name": "Sacramento",
+		"id": "f6225b3f-1ed8-46af-885c-901d1a48f8eb"
+	},
+	{
+		"name": "Random",
+		"id": "ff12dc98-aff9-452d-ab45-6b58c4fd70a3"
+	},
+	{
+		"name": "Moab",
+		"id": "b4cf676a-b7bf-46c6-a601-2d1a230c25a0"
 	}
 ]
